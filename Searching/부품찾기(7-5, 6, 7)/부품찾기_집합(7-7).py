@@ -1,4 +1,5 @@
 n = int(input())
+#가게에 있는 전체 부품 번호를 입력받아서 집합(set) 자료형에 기록
 array = set(map(int, input().split()))
 
 m = int(input())
